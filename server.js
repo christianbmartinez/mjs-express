@@ -13,4 +13,8 @@ app.get('/about.html', (req, res) => {
     res.render('about.html')
 })
 
+app.get('/services.html', (req, res) => {
+    res.render('services.html')
+})
+
 app.listen(process.env.PORT, () => {console.log(`Server listening on port ${process.env.PORT}`)})
